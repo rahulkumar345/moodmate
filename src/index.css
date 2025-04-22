@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-calendar {
+    /* width: 800px; */
+    max-width: 100%;
+    background-color: #f6f9fc;
+    color: #222;
+    background-color:rgb(255 237 213 / var(--tw-bg-opacity, 1))
+    !important; /* tailwind bg-orange-100 */
+    border-radius: 1rem;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.175em;
+  }
+ 
+
+  .react-calendar__navigation {
+    display: flex;
+  }
+  
+  .react-calendar__navigation button {
+    color: hsl(31, 85%, 49%);
+    min-width: 42px;
+    background: none;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+
+  .react-calendar__month-view__weekdays__weekday {
+    text-align: center;
+  }
+
+  .react-calendar__navigation button[disabled] {
+    background-color: #f0f0f0;
+  }
+ 
+
+  .react-calendar__month-view__days__day--neighboringMonth {
+    visibility: hidden;
+  }
+
+  .react-calendar__month-view__weekdays__weekday {
+    font-weight: bold;
+    font-size: 0.875rem; /* Optional: text-sm equivalent */
+  }
+  /* Style for the base tile */
+.calendar-tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem; /* Adds inner spacing so circle appears smaller */
+}
+
+/* Mood background (apply Tailwind mood colors using className mapping) */
+.mood-circle {
+  width: 2rem;
+  height: 2.5rem;
+  border-radius: 9999px; /* Full circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.react-calendar__tile.has-entry abbr {
+    display: none !important;
+  }
