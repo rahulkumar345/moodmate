@@ -1,12 +1,8 @@
-# React + Vite
+# moodmate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interactive Mood Journal with Weather Integration
+Developed a personal mood journal web application that integrates real-time weather data. This project is aimed at assessing your ability to build responsive, user-focused interfaces while utilizing public APIs and geolocation features.
 
-Currently, two official plugins are available:
+## tech stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend: ReactJS, JavaScript, Tailwind CSS Persistence: localStorage

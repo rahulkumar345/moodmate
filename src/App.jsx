@@ -81,6 +81,7 @@ export default function MoodMate() {
     setEntries(updated);
     setMood(null);
     setNote("");
+    alert("Your mood entry has been saved!");
   };
 
   const filteredEntries =
